@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos de Autos</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.models {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.model {
+    position: relative;
+    width: calc(33.333% - 2px); /* Ajuste para espacio de bordes */
+    padding-top: 56.25%; /* Relación de aspecto 16:9 */
+    background-size: cover;
+    background-position: center;
+    margin: 1px; /* Espacio de borde */
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.text h2, .text p {
+    margin: 5px 0;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <div class="models">
+        <div class="model" style="background-image: url('porsche.jpg');">
+            <div class="text">
+                <h2>718</h2>
+                <p>Desde $119,600</p>
+                <button>Configurar</button>
+                <button>Descripción general</button>
+            </div>
+        </div>
+        <div class="model" style="background-image: url('porsche.jpg');">
+            <div class="text">
+                <h2>911</h2>
+                <p>Desde $173,400</p>
+                <button>Configurar</button>
+                <button>Descripción general</button>
+            </div>
+        </div>
+        <div class="model" style="background-image: url('porsche.jpg');">
+            <div class="text">
+                <h2>911</h2>
+                <p>Desde $173,400</p>
+                <button>Configurar</button>
+                <button>Descripción general</button>
+            </div>
+        </div>
+        <div class="model" style="background-image: url('porsche.jpg');">
+            <div class="text">
+                <h2>911</h2>
+                <p>Desde $173,400</p>
+                <button>Configurar</button>
+                <button>Descripción general</button>
+            </div>
+        </div>
+        <!-- Repite para cada modelo -->
+    </div>
+</body>
+</html>

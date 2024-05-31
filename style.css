@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Header{
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+    padding: 10px;
+    color: white;
+    height: 100px;
+    color: black;
+    padding-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.porsche{
+    font-family: Porsche;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.box{
+    width: 100%;
+    height: 550px;
+    background-color: red;
+    overflow: hidden;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.ModelosPorsche h2{
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-top: 35px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+.imagenesModelos img{
+    padding: 0;
+    margin: 0;
+    width: 400px;
+    
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: Porsche;
+    src: url(911porschav3semital.ttf);
+}
+@font-face {
+    font-family: PorscheMenu;
+    src: url(AL_LePORSCHE_PersonalUseOnly.ttf);
+}
